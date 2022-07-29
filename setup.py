@@ -1,10 +1,8 @@
-from setuptools import setup
+from setuptools import find_packages, setup
+
 setup(
     name='pycom.py',
     version='1.0.0',
-    entry_points={
-        'console_scripts': [
-            'pycom=src.pycom.pycom:main'
-        ]
-    }
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
 )
