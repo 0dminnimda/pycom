@@ -9,9 +9,7 @@ from argparse import Namespace
 
 from colorama import Fore
 
-import compiler
-import errors
-import tokenise
+from . import compiler, errors, tokenise
 
 
 def run_compile(flags: Namespace):

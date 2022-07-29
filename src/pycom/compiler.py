@@ -3,7 +3,7 @@ import time
 
 from colorama import Fore
 
-import tokenise
+from . import tokenise
 
 PLATFORM = platform.system()
 
