@@ -28,9 +28,8 @@ Simply:
 ```bash
 git clone https://github.com/Omyyyy/pycom.git
 cd pycom/src
-pip install -r requirements.txt
 pip install -e .
-``` 
+```
 
 Note: Do not touch the `pycom.py.egg-info` folder that the last command will create. It will not work otherwise.
 
