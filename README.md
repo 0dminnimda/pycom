@@ -69,13 +69,20 @@ If you followed the installation instructions correctly, this will work in every
 
 ### Run tests
 
+To run the tests install the package with the test dependencies:
 ```bash
-# Unit tests
+pip install -e .[test]
+```
+
+And then you can run the unit tests
+
+```bash
 pytest tests
 ```
 
+Or the integration tests
+
 ```bash
-# Integration tests
 pytest integration
 ```
 
