@@ -59,8 +59,8 @@ If you followed the installation instructions correctly, this will work in every
     Check if the program will compile without actually compiling it. Defaults to off.
 
 ### Python dependencies:
-> Python version 3.10+  
-> 'colorama' module (install with pip install -r requirements.txt)
+> Python version 3.10+
+> 'colorama' module (install with pip install -e .)
 
 ### C++ dependencies:
 > A recent version of the g++ compiler  
